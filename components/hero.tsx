@@ -1,7 +1,8 @@
 "use client"
 import { Button } from "@/components/ui/button"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { Github, Linkedin } from "lucide-react"
 import ImageCard from "./image-card"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -23,6 +24,7 @@ export default function Hero() {
 
         <h1
           className={`
+            cursor-default
             text-4xl sm:text-6xl lg:text-7xl
             font-bold tracking-tight mb-8
             bg-gradient-to-r from-[#aaffef] via-[#f5bbff] to-[#aaffef]
@@ -35,7 +37,8 @@ export default function Hero() {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
-          Student | Software Engineer
+          {/*}<Link href='https://software-engineering.ie/'><span>ISE First Year</span></Link> | <Link href='https://kepri.ie/'><span>Founder @ Kepri</span></Link>{*/}
+          ISE First Year Student
         </p>
 
         {/* Centered social buttons */}
@@ -47,9 +50,9 @@ export default function Hero() {
           >
             <Button
               variant="ghost"
-              className="p-3 rounded-full hover:bg-[#E03AFF] hover:text-white transition"
+              className="p-3 rounded-full hover:bg-[#E03AFF] hover:text-white transition cursor-pointer"
             >
-              <FaGithub className="h-8 w-8" />
+              <Github className="h-18 w-18" />
             </Button>
           </a>
           <a
@@ -59,9 +62,9 @@ export default function Hero() {
           >
             <Button
               variant="ghost"
-              className="p-3 rounded-full hover:bg-[#2EEAC8] hover:text-white transition"
+              className="p-3 rounded-full hover:bg-[#2EEAC8] hover:text-white transition cursor-pointer"
             >
-              <FaLinkedin className="h-8 w-8" />
+              <Linkedin className="h-18 w-18" />
             </Button>
           </a>
         </div>

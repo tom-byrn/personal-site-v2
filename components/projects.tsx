@@ -4,6 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa"
 import ImageCard from "./image-card"
 import NeuralNet from "@/public/images/NeuralNetImage.png"
 import Link from "next/link"
+import { KepriSite } from "./site"
+import { Card, CardDescription, CardTitle } from "./ui/card"
 
 export default function Projects() {
   return (
@@ -25,6 +27,7 @@ export default function Projects() {
 
         <h1
           className={`
+            cursor-default
             text-4xl sm:text-6xl lg:text-7xl
             font-bold tracking-tight mb-8
             bg-gradient-to-r from-[#f5bbff] via-[#aaffef] to-[#f5bbff]
@@ -36,8 +39,19 @@ export default function Projects() {
           Projects
         </h1>
 
+
+        {/*}<div className="mt-15 mb-2 md:mx-37.5">
+          <Card className="px-7.5">
+            <CardTitle className="text-4xl font-bold">Kepri Solar</CardTitle>
+            <CardDescription className="text-gray-500">Empowering user's to make more money from their solar panels</CardDescription>
+            <Link href="https://kepri.ie">
+              <KepriSite/>
+            </Link>
+          </Card>
+        </div>{*/}
+
         <div className="flex justify-center">
-          <div className="transform scale-115 mt-35 mb-35">
+          <div className="md:transform md:scale-115 mt-25 mb-35">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-8">
               <Link href="https://github.com/tom-byrn/MNIST-Neural-Network">
                 <ImageCard
