@@ -2,11 +2,11 @@ import { Safari } from "./magicui/safari";
 
 export function KepriSite() {
   return (
-    <div className="relative shadow-2xl">
+    <div className="relative inline-block">
       <Safari
         url="https://www.kepri.ie"
-        className="size-full"
-        imageSrc="/images/kepri-dashboard.png"
+        imageSrc="/images/kepri-stats.png"
+        className="block w-full h-auto filter drop-shadow-2xl"
       />
     </div>
   );

@@ -6,6 +6,7 @@ import NeuralNet from "@/public/images/NeuralNetImage.png"
 import Link from "next/link"
 import { KepriSite } from "./site"
 import { Card, CardDescription, CardTitle } from "./ui/card"
+import { AuroraText } from "./magicui/aurora-text"
 
 export default function Projects() {
   return (
@@ -30,7 +31,7 @@ export default function Projects() {
             cursor-default
             text-4xl sm:text-6xl lg:text-7xl
             font-bold tracking-tight mb-8
-            bg-gradient-to-r from-[#f5bbff] via-[#aaffef] to-[#f5bbff]
+            bg-gradient-to-r from-[#ffffff] via-[#ffffff] to-[#ffffff]
             bg-clip-text text-transparent
             gradient-animate
             py-2
@@ -40,15 +41,14 @@ export default function Projects() {
         </h1>
 
 
-        {/*}<div className="mt-15 mb-2 md:mx-37.5">
+        <div className="mt-15 mb-2 md:mx-37.5">
           <Card className="px-7.5">
             <CardTitle className="text-4xl font-bold">Kepri Solar</CardTitle>
-            <CardDescription className="text-gray-500">Empowering user's to make more money from their solar panels</CardDescription>
             <Link href="https://kepri.ie">
               <KepriSite/>
             </Link>
           </Card>
-        </div>{*/}
+        </div>
 
         <div className="flex justify-center">
           <div className="md:transform md:scale-115 mt-25 mb-35">

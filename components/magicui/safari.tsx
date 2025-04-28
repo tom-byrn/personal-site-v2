@@ -139,14 +139,14 @@ export function Safari({
         ) : null}
         {imageSrc && (
           <image
-            href={imageSrc}
-            width="1200"
-            height="700"
-            x="1"
-            y="52"
-            preserveAspectRatio="xMidYMid slice"
-            clipPath="url(#roundedBottom)"
-          />
+          href={imageSrc}
+          x="1"
+          y="52"
+          width={width - 2}          // fill the full inner width
+          height={height - 52}      // fill from y=52 down to the bottom
+          preserveAspectRatio="xMidYMin slice"
+          clipPath="url(#roundedBottom)"
+        />        
         )}
         {videoSrc && (
           <foreignObject

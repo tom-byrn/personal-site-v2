@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button"
 import { Github, Linkedin } from "lucide-react"
 import ImageCard from "./image-card"
 import Link from "next/link"
+import { AuroraText } from "./magicui/aurora-text"
+import { HyperText } from "./magicui/hyper-text"
 
 export default function Hero() {
   return (
@@ -33,12 +35,11 @@ export default function Hero() {
             py-2
           `}
         >
-          Tom Byrne
+          <AuroraText>Tom Byrne</AuroraText>
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
-          {/*}<Link href='https://software-engineering.ie/'><span>ISE First Year</span></Link> | <Link href='https://kepri.ie/'><span>Founder @ Kepri</span></Link>{*/}
-          ISE First Year Student
+          <Link href='https://software-engineering.ie/'><span>ISE First Year</span></Link> | <Link href='https://kepri.ie/'><span>Founder @ Kepri</span></Link>
         </p>
 
         {/* Centered social buttons */}
