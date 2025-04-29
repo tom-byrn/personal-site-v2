@@ -70,7 +70,7 @@ export default function Projects() {
                 />
               </Link>
 
-              <Link href="https://github.com/tom-byrn/flylow-app">
+              <Link href="https://flylow-app.vercel.app/">
                 <ImageCard
                   imageSrc="/images/Flylow.png"
                   title="Flylow Web App"
@@ -78,7 +78,7 @@ export default function Projects() {
                 />
               </Link>
 
-              <Link href="https://github.com/tom-byrn/well-quest">
+              <Link href="https://well-quest-rnhb.vercel.app/">
                 <ImageCard
                   imageSrc="/images/Well-Quest.jpg"
                   title="Well-Quest"
