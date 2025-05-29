@@ -1,6 +1,7 @@
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (

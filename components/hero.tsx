@@ -39,8 +39,12 @@ export default function Hero() {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
-          <Link href='https://software-engineering.ie/'><span>ISE First Year</span></Link> | <Link href='https://kepri.ie/'><span>Founder @ Kepri</span></Link>
+          <span>Incoming SWE Intern @ Stripe + Amazon</span>
         </p>
+
+        {/*}<p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
+          <Link href='https://software-engineering.ie/'><span>ISE First Year </span></Link> | <Link href='https://kepri.ie/'><span>Founder @ Kepri</span></Link>
+        </p>{*/}
 
         {/* Centered social buttons */}
         <div className="flex justify-center space-x-6">
