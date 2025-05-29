@@ -7,7 +7,7 @@ import Link from "next/link"
 import { KepriSite } from "./site"
 import { Card, CardDescription, CardTitle } from "./ui/card"
 import { AuroraText } from "./magicui/aurora-text"
-import { LineShadowText } from "./magicui/line-shadow-text"
+
 
 export default function Projects() {
   return (
