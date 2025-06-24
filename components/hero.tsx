@@ -39,7 +39,7 @@ export default function Hero() {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
-          <span>Incoming SWE Intern @ Stripe + Amazon</span>
+          <span>ISE First Year | SWE Intern @ Stripe</span>
         </p>
 
         {/*}<p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-400 mb-10">
@@ -48,30 +48,24 @@ export default function Hero() {
 
         {/* Centered social buttons */}
         <div className="flex justify-center space-x-6">
-          <a
-            href="https://github.com/tom-byrn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="https://github.com/tom-byrn">
             <Button
               variant="ghost"
               className="p-3 rounded-full hover:bg-[#E03AFF] hover:text-white transition cursor-pointer"
             >
               <Github className="h-18 w-18" />
             </Button>
-          </a>
-          <a
-            href="https://linkedin.com/in/tom-byrn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          </Link>
+
+          <Link href="https://linkedin.com/in/tom-byrn">
             <Button
               variant="ghost"
               className="p-3 rounded-full hover:bg-[#2EEAC8] hover:text-white transition cursor-pointer"
             >
               <Linkedin className="h-18 w-18" />
             </Button>
-          </a>
+          </Link>
+
         </div>
       </div>
     </div>
